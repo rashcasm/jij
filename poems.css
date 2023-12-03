@@ -1,0 +1,27 @@
+/* Hide the checkbox */
+.toggle-poem {
+    display: none;
+  }
+  
+  /* Hide the full poem initially */
+  .full-poem {
+    display: none;
+  }
+  
+  /* When the checkbox is checked, display the full poem */
+  .toggle-poem:checked + .read-more-btn + .full-poem {
+    display: block;
+  }
+  
+  /* When the checkbox is checked, hide the read more button */
+  .toggle-poem:checked + .read-more-btn {
+    display: none;
+  }
+  .card-body{
+    background-color: #f4f1d9;
+  }
+
+  .read-more-btn {
+    background-color: #c1ba87;
+    border-color: #c1ba87;
+  }
